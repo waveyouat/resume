@@ -921,3 +921,14 @@ textarea#message {
 	padding-right: 25px;
 	padding-left: 25px;
 }
+
+.invito {
+    position: absolute !important;
+    margin: 30px 25% !important;
+    text-align: center !important;
+    width: 50% !important;
+    font-size: 12rem;
+    
+}
+
+
