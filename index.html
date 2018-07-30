@@ -11,7 +11,8 @@
 		<link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/magnific-popup.css">
-
+            
+            <link rel="stylesheet" href="assets/tagsphere/tagsphere.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	</head>
 
@@ -59,12 +60,34 @@
 				<div class="tiles">
 					<div class="row">
 						<div class="col-md-6">
+                            
+                            
+                            
 							<div class="a">
+                                <div id="tagsphere-content" class="tagsphere-holder">
+                                    <ul class="tagsphere">
+                                        <li><a href="http://google.com">Google</a></li>
+                                        <li><a href="http://www.yahoo.com/">Yahoo!</a></li>
+                                        <li><a href="http://www.bing.com/">Bing</a></li>
+                                        <li><a href="http://www.faroo.com/">FAROO</a></li>
+                                    </ul>
+                                </div>
+                                
 								<a href="#test-popup-1" class="open-popup-link">
+                                    
 									<img src="images/1.jpg" class="img-responsive" alt="Responsive image">
+                                        
 									<div class="img-hover content">
+                                        
+                                        
 										<div class="c-table">
+                                            
+                                            
+                                            
 											<div class="ct-cell">
+                                                
+                                                
+                                                
 												<h3 class="img-title">Content</h3>
 											</div>
 										</div>
@@ -116,6 +139,7 @@
 									<div class="img-hover frontend">
 										<div class="c-table">
 											<div class="ct-cell">
+                                                
 												<h3 class="img-title">Front-End</h3>
 											</div>
 										</div>
@@ -582,15 +606,25 @@
 				</div>											
 			</footer>
 		</section>
-
+        <div id="tagsphere-content" class="tagsphere-holder" style="height: 0px; padding: 0px; margin:0 auto;">
+            <ul class="tagsphere">
+                <li><a href="http://google.com">Google</a></li>
+                <li><a href="http://www.yahoo.com/">Yahoo!</a></li>
+                <li><a href="http://www.bing.com/">Bing</a></li>
+                <li><a href="http://www.faroo.com/">FAROO</a></li>
+            </ul>
+        </div>
 	<!-- Scripts -->
 
 		<script src="assets/js/jquery-3.1.0.min.js"></script>
 		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="assets/js/jquery.magnific-popup.min.js"></script>
-
+<script src="assets/tagsphere/tagsphere.js"></script>
 		<script src="assets/js/script.js"></script>
-
+        <!--  ===== tagsphere initialize ====  -->
+        <script>
+            $tagsphere("tagsphere-content", {size:300, smallestsize:22, biggestsize:16});
+            </script>
 		<!--  ===== Scroll to Top ====  -->
 	    <script>
 			if ($('#back-to-top').length) {
