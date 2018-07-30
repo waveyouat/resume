@@ -720,28 +720,28 @@ button[disabled], html input[disabled] {
 .a a:hover .img-hover {
 	opacity: 0;
 }
-.a a .img-hover.glass {
+.a a .img-hover.content {
     background: #ea766a;
 }
-.a a .img-hover.shoes-glass {
+.a a .img-hover.frontent {
     background: #a0c4a3;
 }
-.a a .img-hover.hand-parts {
+.a a .img-hover.support {
     background: #da9dd9;
 }
-.a a .img-hover.table-with-phone {
+.a a .img-hover.ecommerce {
     background: #6da178;
 }
-.a a .img-hover.orange-shoe {
+.a a .img-hover.automation {
     background: #da9567;
 }
-.a a .img-hover.glass-shoes {
+.a a .img-hover.backend {
     background: #5dc6aa;
 }
-.a a .img-hover.girls-tops {
+.a a .img-hover.marketing {
     background: #cab0a6;
 }
-.a a .img-hover.egg-arts {
+.a a .img-hover.management {
     background: #ddd173;
 }
 .a a .img-hover .c-table {
