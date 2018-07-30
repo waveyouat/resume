@@ -723,7 +723,8 @@ button[disabled], html input[disabled] {
 .a a .img-hover.content {
     background: #ea766a;
 }
-.a a .img-hover.frontent {
+.a a .img-hover.frontend {
+    
     background: #a0c4a3;
 }
 .a a .img-hover.support {

@@ -35,7 +35,11 @@
   
   //set up environment
   $('#'+holder+" .tagsphere").hide();
-  $('#'+holder).css({'width': this.size+'px', 'height': this.size+'px'});
+  
+  //CUSTOM STYLE Liborio
+  //$('#'+holder).css({'width': this.size+'px', 'height': this.size+'px'});
+  $('#'+holder).css({'top': '-25%', 'left': '-15%', 'position': 'absolute', 'width': 130+'%', 'height': 150 +'%', 'padding': 1 +'px', 'margin': '0 auto', 'border-radius': '30%', 'background-color': 'transparent'});
+  
   if (!options.clicktostart) this.add_tags();
   else{
   $this = this;
@@ -89,7 +93,7 @@
                     $this.distance_styling(tag);
                     });
   //now that we've acquired max_width ...
-  $('#'+this.holder).css('padding', max_width/2);
+  //$('#'+this.holder).css('padding', max_width/2); Liborio
   this.max_width = max_width;
   this.center.x+=max_width/2;
   this.center.y+=max_width/2;
@@ -238,7 +242,7 @@
                     }
                     $this.distance_styling(tag);
                     });
-  $('#'+this.holder).css('padding', max_width/2);
+  //$('#'+this.holder).css('padding', max_width/2); Liborio
   this.max_width = max_width;
   this.center.x+=max_width/2;
   this.center.y+=max_width/2;
