@@ -74,10 +74,15 @@
 }
 .starting-from > span {font-size:3em;}
 
-.colonna-badge {-webkit-transform: rotateZ(-12deg);
+.colonna-badge {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    -webkit-transform: rotateZ(-12deg);
     transform: rotateZ(-12deg);
     height:200px;
-        padding-left: 12%;
+    padding-left: 12%;
 }
 
 
