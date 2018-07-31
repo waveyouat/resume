@@ -98,6 +98,9 @@
         font-size:6rem;
         padding-top: 60px;
     }
+    .invito {
+        display:none;
+    }
 }
 
 
