@@ -97,8 +97,11 @@
     z-index: 2;
     color: white;
     text-align: center;
+    max-height:0px;
+    transition:max-height 2s;
 }
-//hello
+
+.img-hover:hover > .testa {max-height:19000px;}
 
 @media only screen and (max-width: 600px) {
     .colonna-badge {
