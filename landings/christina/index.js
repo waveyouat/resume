@@ -51,7 +51,7 @@ const installPlayer = () => {
                 "artist": "Christina Leong",
                 "album": "Love in the modern world",
                 "url": "assets/ep1.mp3",
-                "cover_art_url": "/christina/assets/podcast-artwork.png"
+                "cover_art_url": "assets/podcast-artwork.png"
             }
         ]
     });
