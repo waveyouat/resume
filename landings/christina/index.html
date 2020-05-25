@@ -4,11 +4,46 @@
 	<meta charset="UTF-8">
 	<title>Listen - Love in the modern world</title>
 	<script type="text/javascript" src="index.js"></script>
+	<script type="text/javascript" src="InstagramFeed.min.js"></script>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/amplitudejs@v5.0.3/dist/amplitude.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <script>
+        new InstagramFeed({
+            'username': '@beingchristinal',
+            'container': "#instagram-feed-demo",
+            'display_profile': true,
+            'display_biography': true,
+            'display_gallery': true,
+            'display_igtv': false,
+            'items': 10,
+            'items_per_row': 2,
+            'margin': 0.5,
+            'image_size': 480,
+            'get_raw_json': true,
+            'callback': function(data) {console.log(data)},
+            //'styling': false
+        });
+    </script>
+    <style>
+        .instagram_profile {
+            /* custom styles here */
+        }
+
+        .instagram_profile_image {
+            /* custom styles here */
+        }
+
+        .instagram_gallery {
+            /* custom styles here */
+        }
+
+        .instagram_igtv {
+            /* custom styles here */
+        }
+    </style>
 </head>
 <body>
     <div id="logo"><img src="assets/Logo.png"/></div>
@@ -74,5 +109,7 @@
     Subscribe to the podcast
 
 </div>
+    <div id="instagram-feed-demo" class="instagram_feed"></div>
+
 </body>
 </html>
